@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+ 
+}
+.App{
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* max-height:500px; */
+  max-width: 600px;
+  border: 2px solid rgb(219, 4, 4);
+  margin: 5px 10px;
+  width: 500px;
+}
+header{
+  width: 100%;
+  height: 100px;
+  padding: 2px;
+  background-color: orchid;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+header .btn{
+  background-color: transparent;
+  color:rgb(30, 6, 243);
+  border: 1px solid black;
+  outline: none;
+  border-radius: 7px;
+  height: 30px;
+  width: 50px;
+  font-weight: bold;
+  font-style: italic;
+  transition: 400ms;
+}
+header .btn:hover{
+  scale: 110%;
+  background-color:white;
+  color: black;
+}
+.main{
+  width: 98%;
+  margin-top: 10px ;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+  
+}
+.main h3{
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.task{
+  background-color: bisque;
+  padding: 5px;
+}
+footer{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: orchid;
+}
+.reminder{
+  border-left: 3px solid rgb(1, 71, 1);
+}
+.add-form{
+  width: 100%;
+  margin: 10px;
+}
+.day-time input{
+  width: 96%;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: bisque;
+}
+.add-task input{
+  width: 96%;
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  padding-left: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: bisque;
+}
+#check label, input{
+ margin-left: 25%;
+ margin-bottom: 20px;
+}
+form .button{
+  width: 95%;
+  height: 20px;
+  margin-left: 5px;
+  background-color:black;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 400ms;
+}
+form .button:hover{
+  scale: 103%;
+}
+form *{
+  font-weight: bold;
+}
